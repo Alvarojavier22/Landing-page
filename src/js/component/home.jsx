@@ -25,8 +25,8 @@ const Home = () => {
 	return (
 		<div className="text-center">
 			<Navbar items={items} />
-			<Card button={card.btn} img={card.img} text={card.text} title={card.text} />
-			<Card button={card.btn} img={{ src: "https://picsum.photos/200/300", alt: "Imagen" }} text="Título de la tarjeta" title={card.title} />
+			<Card button={card.btn} img={card.img} text={card.text} title={card.title} />
+					
 		</div>
 	);
 };
